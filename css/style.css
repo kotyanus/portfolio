@@ -77,11 +77,23 @@ h2.title:after{
 		flex: 33.3%;
 	}
 }
-/*@media (max-width: 1001px){
+@media (max-width: 768px){
 	.gallery-item{
 		flex: 50%;
 	}
-}*/
+	h2.title{
+		font-size: 38px;
+	}
+}
+@media (max-width: 425px){
+	.gallery-item{
+		width: 300px;
+		height: auto;
+	}
+	h2.title{
+		font-size: 28px;
+	}
+}
 .footer{
 	font-size: 24px;
 	text-align: center;
