@@ -87,8 +87,7 @@ h2.title:after{
 }
 @media (max-width: 425px){
 	.gallery-item{
-		width: 300px;
-		height: auto;
+		flex: 100%;
 	}
 	h2.title{
 		font-size: 28px;
