@@ -87,12 +87,13 @@ h2.title:after{
 }
 @media (max-width: 425px){
 	.gallery-item{
-		max-width: 100%
+		flex: 100%;
 	}
 	h2.title{
 		font-size: 28px;
 	}
 }
+/*до слез нахуй...*/
 .footer{
 	font-size: 24px;
 	text-align: center;
