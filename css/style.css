@@ -7,6 +7,9 @@ body{
 	position: relative;
 	font-family: 'Rubik', sans-serif;
 }
+img{
+	max-width: 100%;
+}
 section.gallery{
 	position: relative;
 	padding: 30px 0;
@@ -39,7 +42,7 @@ h2.title:after{
 .gallery-item {
  	display: block;
  	position: relative;
- 	flex: 25%;
+ 	width: calc(100% / 4);
  	overflow: hidden;
 
 }
@@ -74,12 +77,12 @@ h2.title:after{
 }
 @media (max-width: 1000px){
 	.gallery-item{
-		flex: 33.3%;
+		width: calc(100% / 3);
 	}
 }
 @media (max-width: 768px){
 	.gallery-item{
-		flex: 50%;
+		width: calc(100% / 2);
 	}
 	h2.title{
 		font-size: 38px;
@@ -87,13 +90,10 @@ h2.title:after{
 }
 @media (max-width: 425px){
 	.gallery-item{
-		flex: 100%;
+		width: 100%;
 	}
 	h2.title{
 		font-size: 28px;
-	}
-	img{
-		max-width: 100%;
 	}
 }
 /*до слез нахуй...*/
