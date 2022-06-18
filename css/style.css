@@ -92,6 +92,9 @@ h2.title:after{
 	h2.title{
 		font-size: 28px;
 	}
+	img{
+		max-width: 100%;
+	}
 }
 /*до слез нахуй...*/
 .footer{
